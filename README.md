@@ -39,7 +39,7 @@ Handling real user input on the server side
 
 - Contact form with validation and user feedback
 
-  ## Backend (Node.js + Express)
+  ### Backend (Node.js + Express)
 
 - REST API endpoint for contact form submission
 
@@ -119,13 +119,14 @@ Frontend/
  └─ package.json
 
 
-```
+
 Backend/
  ├─ utils/
  │   └─ sendEmail.js
  ├─ app.js
  ├─ config.env
  └─ package.json
+```
 
 ## ⚙️ Installation & Setup
 ### 1️⃣ Clone the repository
@@ -141,15 +142,14 @@ cd backend
 npm install
 npm start
 
-
 Create a config.env file inside the backend directory:
 
-```
+
 PORT=5000
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_email_app_password
 
-```
+
 ## 📸 Screenshots
 
 <img width="1896" height="854" alt="image" src="https://github.com/user-attachments/assets/dea6cb74-2840-4f0b-aa9d-0fe523dc0d86" />
@@ -177,7 +177,7 @@ EMAIL_PASS=your_email_app_password
 
 - Connecting frontend forms to backend APIs
 
--Implementing server-side email handling
+- Implementing server-side email handling
 
 - Structuring a project with both frontend and backend codebases
 
@@ -193,6 +193,6 @@ EMAIL_PASS=your_email_app_password
 
 - Enhance accessibility and animations
 
-👤 Author
+## 👤 Author
 
-## Designed & Developed by Moumoni
+ Designed & Developed by Moumoni
